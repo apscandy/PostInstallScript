@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Swap disabled
+#sudo swapoff -a
+
+# Update
+sudo apt update;sudo apt upgrade -y
+
+# python and tools
+sudo apt install python3 python3-pip idle -y
+
+# tools
+sudo app install virtualbox gufw net-tools locate htop git -y
+
+# privacy tools
+sudo apt install proxychains macchanger -y
+
+# snap install edge
+sudo snap install brave bitwarden vlc -y
